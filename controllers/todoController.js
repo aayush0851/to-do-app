@@ -8,8 +8,7 @@ module.exports = function(app){
 
     //this handler will show us the page when asked for
     app.get('/todo', function(req, res){
-
-
+        res.render('todo');
     });
 
     //this handler will help us to post stuff like the todo items on the server
@@ -21,7 +20,7 @@ module.exports = function(app){
     //this handler will delete a todo item from the list
     app.delete('/todo', function(req, res){
 
-        
+
     });
 
 
